@@ -43,12 +43,10 @@
 	NSString *soundPath = [[NSBundle mainBundle] pathForResource:feelingName ofType:@"wav"];
 	if (soundPath) {
 		[AudioFX playAtPath:soundPath];
-		multicastGuy.view;
-		multicastGuy.txtDataToSend.text = feelingName;
-		[multicastGuy send];
-		[[NSUserDefaults standardUserDefaults] setObject:feelingName forKey:@"lastfeeling"];
 	}
 	// broadcast feeling!!!!
+	[[multicastGuy remoteFeelings] sendToRemote:feelingName];
+	[[NSUserDefaults standardUserDefaults] setObject:feelingName forKey:@"lastfeeling"];
 }
 
 - (void)dealloc {

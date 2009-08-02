@@ -22,6 +22,8 @@
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 @property (nonatomic, retain) IBOutlet UITextView *log;
 
+@property (nonatomic, retain) RemoteFeelings *remoteFeelings;
+
 - (IBAction) send;
 
 @end

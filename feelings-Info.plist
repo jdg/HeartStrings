@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>57heartStringsIcon.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.stone.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>net.jdg.HeartStrings</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

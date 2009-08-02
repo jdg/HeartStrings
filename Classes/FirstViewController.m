@@ -39,6 +39,7 @@
 }
 
 - (void)feelingTapped:(NSString *)name {
+	NSLog(@"%@ feelingTapped:%@", self, name);
 	titleItem.title = name;
 	[[[UIApplication sharedApplication] delegate] feelingChanged:name];
 }

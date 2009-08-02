@@ -48,7 +48,7 @@
 
 	if ([plist count] > 0) {
 		lastFeelingId = [[plist lastObject] objectForKey:@"id"];
-		NSLog(@"Setting last feeling id: %@", lastFeelingId);
+		NSLog(@"Setting last feeling id: %@ - loaded %d", lastFeelingId, [plist count]);
 	}
 
 	[feelings addObjectsFromArray:plist];
@@ -56,6 +56,8 @@
 }
 
 - (void) sendToRemote:(NSString *)feeling {
+	NSLog(@"%@ sendToRemote: %@", self, feeling);
+
 	NSString *requestString = [NSString stringWithFormat:@"&feeling[name]=%@", feeling];
 	NSData *data = [NSData dataWithBytes:[requestString UTF8String] 
 								  length:[requestString length]];

@@ -11,11 +11,18 @@
 
 @implementation multicastViewController
 
-@synthesize txtDataToSend, log, imageView;
+@synthesize txtDataToSend, log, imageView, remoteFeelings;
+
 - (id)init {
     if (self = [super initWithNibName:nil bundle:nil]) {
 		self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Friends" image:[UIImage imageNamed:@"public.png"] tag:2] autorelease];
-    }
+
+		RemoteFeelings *rf = [[RemoteFeelings alloc] init];
+		self.remoteFeelings = rf;
+
+		// Hit the server every 5 seconds, to request new feelings.
+		refreshTimer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(refresh) userInfo:nil repeats:YES];
+	}
     return self;
 }
 
@@ -25,14 +32,10 @@
 }
 
 - (void)viewDidLoad {
-	NSString *s = [[NSUserDefaults standardUserDefaults] objectForKey:@"lastfeeling"];
-	
 	[super viewDidLoad];
+
+	NSString *s = [[NSUserDefaults standardUserDefaults] objectForKey:@"lastfeeling"];
     [self setMainImageForName:s];
-	remoteFeelings = [[RemoteFeelings alloc] init];
-	
-	// Hit the server every 5 seconds, to request new feelings.
-	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(refresh) userInfo:nil repeats:YES];
 }
 
 - (void)dealloc {
