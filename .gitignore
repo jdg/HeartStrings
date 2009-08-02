@@ -1,0 +1,15 @@
+# xcode noise
+build/*
+build
+*.pbxuser
+*.mode1v3
+ 
+# old skool
+.svn
+ 
+# osx noise
+.DS_Store
+profile
+
+# private files
+Constants.h
