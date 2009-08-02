@@ -1,0 +1,70 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* feelings */ = {
+		activeExec = 0;
+		executables = (
+			44346EA61024F82F001F5EE3 /* feelings */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 44346EA61024F82F001F5EE3 /* feelings */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* feelings */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* feelings */,
+		);
+		codeSenseManager = 44346EAA1024F84F001F5EE3 /* Code sense */;
+		executables = (
+			44346EA61024F82F001F5EE3 /* feelings */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 270858287;
+			PBXWorkspaceStateSaveDate = 270858287;
+		};
+		sourceControlManager = 44346EA91024F84F001F5EE3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	44346EA61024F82F001F5EE3 /* feelings */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = feelings;
+		sourceDirectories = (
+		);
+	};
+	44346EA91024F84F001F5EE3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	44346EAA1024F84F001F5EE3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	44346F451024FA93001F5EE3 /* FeelingManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 218}";
+		};
+	};
+}

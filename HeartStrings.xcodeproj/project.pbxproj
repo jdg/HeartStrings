@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* feelingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* feelingsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		44346F471024FA93001F5EE3 /* FeelingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44346F461024FA93001F5EE3 /* FeelingManager.m */; };
+		44346F4C1024FAA8001F5EE3 /* Feeling.m in Sources */ = {isa = PBXBuildFile; fileRef = 44346F4B1024FAA8001F5EE3 /* Feeling.m */; };
+		ABE0C61810250069004B5F53 /* ourfeelings in Resources */ = {isa = PBXBuildFile; fileRef = ABE0C5E910250069004B5F53 /* ourfeelings */; };
+		ABE0C64B102503A2004B5F53 /* ListOfFeelingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0C64A102503A2004B5F53 /* ListOfFeelingsController.m */; };
+		ABE0C69710250C1F004B5F53 /* ListOfFeelingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE0C69610250C1F004B5F53 /* ListOfFeelingsController.xib */; };
+		B430A8A01025829C00FC97F2 /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = B430A89F1025829C00FC97F2 /* favorites.png */; };
+		B430A8A2102582DA00FC97F2 /* SubGroups.png in Resources */ = {isa = PBXBuildFile; fileRef = B430A8A1102582DA00FC97F2 /* SubGroups.png */; };
+		B430A8A7102584B600FC97F2 /* TiledFeelingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B430A8A6102584B600FC97F2 /* TiledFeelingsView.m */; };
+		B430A8B1102588B300FC97F2 /* Feelings.xml in Resources */ = {isa = PBXBuildFile; fileRef = B430A8B0102588B300FC97F2 /* Feelings.xml */; };
+		B430A8BA1025943100FC97F2 /* thumbs in Resources */ = {isa = PBXBuildFile; fileRef = B430A8B81025943100FC97F2 /* thumbs */; };
+		B430A8D01025966700FC97F2 /* ShakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B430A8CF1025966700FC97F2 /* ShakingView.m */; };
+		B430A913102596B100FC97F2 /* Surprised.wav in Resources */ = {isa = PBXBuildFile; fileRef = B430A911102596B100FC97F2 /* Surprised.wav */; };
+		B430A914102596B100FC97F2 /* Happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = B430A912102596B100FC97F2 /* Happy.wav */; };
+		B430A9D41025EC6800FC97F2 /* ComingSoonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B430A9D31025EC6800FC97F2 /* ComingSoonController.xib */; };
+		B430A9D91025EC7800FC97F2 /* ComingSoonController.m in Sources */ = {isa = PBXBuildFile; fileRef = B430A9D81025EC7800FC97F2 /* ComingSoonController.m */; };
+		B430A9E31025EF4D00FC97F2 /* PaintController.m in Sources */ = {isa = PBXBuildFile; fileRef = B430A9E21025EF4D00FC97F2 /* PaintController.m */; };
+		B430A9E51025EF5B00FC97F2 /* PaintController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B430A9E41025EF5B00FC97F2 /* PaintController.xib */; };
+		B430AA011025EFEF00FC97F2 /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = B430AA001025EFEF00FC97F2 /* brush.png */; };
+		B430AAA71025F46800FC97F2 /* PeerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B430AAA61025F46800FC97F2 /* PeerController.m */; };
+		B430AAAD1025F51100FC97F2 /* public.png in Resources */ = {isa = PBXBuildFile; fileRef = B430AAAC1025F51100FC97F2 /* public.png */; };
+		B430ABB01026100500FC97F2 /* AudioFX.m in Sources */ = {isa = PBXBuildFile; fileRef = B430ABAD1026100500FC97F2 /* AudioFX.m */; };
+		B430ABBF1026106D00FC97F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430ABBE1026106D00FC97F2 /* AudioToolbox.framework */; };
+		B430ABE9102611C800FC97F2 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABE4102611C800FC97F2 /* Red.png */; };
+		B430ABEA102611C800FC97F2 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABE5102611C800FC97F2 /* Yellow.png */; };
+		B430ABEB102611C800FC97F2 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABE6102611C800FC97F2 /* Purple.png */; };
+		B430ABEC102611C800FC97F2 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABE7102611C800FC97F2 /* Blue.png */; };
+		B430ABED102611C800FC97F2 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABE8102611C800FC97F2 /* Green.png */; };
+		B430ABF0102611D000FC97F2 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B430ABEF102611D000FC97F2 /* EAGLView.m */; };
+		B430ABF3102611D800FC97F2 /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B430ABF2102611D800FC97F2 /* PaintingView.m */; };
+		B430ABF6102611E400FC97F2 /* Erase.caf in Resources */ = {isa = PBXBuildFile; fileRef = B430ABF4102611E400FC97F2 /* Erase.caf */; };
+		B430ABF7102611E400FC97F2 /* Select.caf in Resources */ = {isa = PBXBuildFile; fileRef = B430ABF5102611E400FC97F2 /* Select.caf */; };
+		B430ABF9102611F100FC97F2 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ABF8102611F100FC97F2 /* Particle.png */; };
+		B430AC0E1026122D00FC97F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430AC0D1026122D00FC97F2 /* CoreGraphics.framework */; };
+		B430AC2F1026123200FC97F2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430AC2E1026123200FC97F2 /* OpenGLES.framework */; };
+		B430AC3E1026123700FC97F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430AC3D1026123700FC97F2 /* QuartzCore.framework */; };
+		B430AD4B10261D8C00FC97F2 /* RemoteFeelings.m in Sources */ = {isa = PBXBuildFile; fileRef = B430AD4910261D8C00FC97F2 /* RemoteFeelings.m */; };
+		B430AD4E10261DD800FC97F2 /* multicastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B430AD4C10261DD800FC97F2 /* multicastViewController.m */; };
+		B430AD6F1026208300FC97F2 /* multicastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B430AD6E1026208300FC97F2 /* multicastViewController.xib */; };
+		B430ADDA1026263700FC97F2 /* 57heartStringsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ADD81026263700FC97F2 /* 57heartStringsIcon.png */; };
+		B430ADDB1026263700FC97F2 /* 512heartStringsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B430ADD91026263700FC97F2 /* 512heartStringsIcon.png */; };
+		B430AE2B1026292300FC97F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B430AE2A1026292300FC97F2 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* feelingsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feelingsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* feelingsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feelingsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Heartstrings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartstrings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondView.xib; path = nibs/SecondView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* feelings_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feelings_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = nibs/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44346F451024FA93001F5EE3 /* FeelingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeelingManager.h; sourceTree = "<group>"; };
+		44346F461024FA93001F5EE3 /* FeelingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeelingManager.m; sourceTree = "<group>"; };
+		44346F4A1024FAA8001F5EE3 /* Feeling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feeling.h; sourceTree = "<group>"; };
+		44346F4B1024FAA8001F5EE3 /* Feeling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feeling.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* feelings-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "feelings-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ABE0C5E910250069004B5F53 /* ourfeelings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ourfeelings; sourceTree = "<group>"; };
+		ABE0C649102503A2004B5F53 /* ListOfFeelingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfFeelingsController.h; sourceTree = "<group>"; };
+		ABE0C64A102503A2004B5F53 /* ListOfFeelingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfFeelingsController.m; sourceTree = "<group>"; };
+		ABE0C69610250C1F004B5F53 /* ListOfFeelingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListOfFeelingsController.xib; path = nibs/ListOfFeelingsController.xib; sourceTree = "<group>"; };
+		B430A89F1025829C00FC97F2 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorites.png; path = images/favorites.png; sourceTree = "<group>"; };
+		B430A8A1102582DA00FC97F2 /* SubGroups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SubGroups.png; path = images/SubGroups.png; sourceTree = "<group>"; };
+		B430A8A5102584B600FC97F2 /* TiledFeelingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledFeelingsView.h; sourceTree = "<group>"; };
+		B430A8A6102584B600FC97F2 /* TiledFeelingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledFeelingsView.m; sourceTree = "<group>"; };
+		B430A8B0102588B300FC97F2 /* Feelings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Feelings.xml; sourceTree = "<group>"; };
+		B430A8B81025943100FC97F2 /* thumbs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = thumbs; sourceTree = "<group>"; };
+		B430A8CE1025966700FC97F2 /* ShakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakingView.h; sourceTree = "<group>"; };
+		B430A8CF1025966700FC97F2 /* ShakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakingView.m; sourceTree = "<group>"; };
+		B430A911102596B100FC97F2 /* Surprised.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Surprised.wav; path = audio/Surprised.wav; sourceTree = "<group>"; };
+		B430A912102596B100FC97F2 /* Happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Happy.wav; path = audio/Happy.wav; sourceTree = "<group>"; };
+		B430A9D31025EC6800FC97F2 /* ComingSoonController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ComingSoonController.xib; path = nibs/ComingSoonController.xib; sourceTree = "<group>"; };
+		B430A9D71025EC7800FC97F2 /* ComingSoonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComingSoonController.h; sourceTree = "<group>"; };
+		B430A9D81025EC7800FC97F2 /* ComingSoonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComingSoonController.m; sourceTree = "<group>"; };
+		B430A9E11025EF4D00FC97F2 /* PaintController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintController.h; sourceTree = "<group>"; };
+		B430A9E21025EF4D00FC97F2 /* PaintController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintController.m; sourceTree = "<group>"; };
+		B430A9E41025EF5B00FC97F2 /* PaintController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PaintController.xib; path = nibs/PaintController.xib; sourceTree = "<group>"; };
+		B430AA001025EFEF00FC97F2 /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brush.png; path = images/brush.png; sourceTree = "<group>"; };
+		B430AAA51025F46800FC97F2 /* PeerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerController.h; sourceTree = "<group>"; };
+		B430AAA61025F46800FC97F2 /* PeerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerController.m; sourceTree = "<group>"; };
+		B430AAAC1025F51100FC97F2 /* public.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = public.png; path = images/public.png; sourceTree = "<group>"; };
+		B430ABAD1026100500FC97F2 /* AudioFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioFX.m; path = audio/AudioSupport/AudioFX.m; sourceTree = "<group>"; };
+		B430ABAE1026100500FC97F2 /* AudioFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioFX.h; path = audio/AudioSupport/AudioFX.h; sourceTree = "<group>"; };
+		B430ABAF1026100500FC97F2 /* Audio_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Audio_Internal.h; path = audio/AudioSupport/Audio_Internal.h; sourceTree = "<group>"; };
+		B430ABBE1026106D00FC97F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B430ABE4102611C800FC97F2 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Red.png; path = GLPaint/Images/Red.png; sourceTree = "<group>"; };
+		B430ABE5102611C800FC97F2 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yellow.png; path = GLPaint/Images/Yellow.png; sourceTree = "<group>"; };
+		B430ABE6102611C800FC97F2 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Purple.png; path = GLPaint/Images/Purple.png; sourceTree = "<group>"; };
+		B430ABE7102611C800FC97F2 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = GLPaint/Images/Blue.png; sourceTree = "<group>"; };
+		B430ABE8102611C800FC97F2 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = GLPaint/Images/Green.png; sourceTree = "<group>"; };
+		B430ABEE102611D000FC97F2 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = GLPaint/EAGLView.h; sourceTree = "<group>"; };
+		B430ABEF102611D000FC97F2 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAGLView.m; path = GLPaint/EAGLView.m; sourceTree = "<group>"; };
+		B430ABF1102611D800FC97F2 /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintingView.h; path = GLPaint/Classes/PaintingView.h; sourceTree = "<group>"; };
+		B430ABF2102611D800FC97F2 /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintingView.m; path = GLPaint/Classes/PaintingView.m; sourceTree = "<group>"; };
+		B430ABF4102611E400FC97F2 /* Erase.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Erase.caf; path = GLPaint/Erase.caf; sourceTree = "<group>"; };
+		B430ABF5102611E400FC97F2 /* Select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Select.caf; path = GLPaint/Select.caf; sourceTree = "<group>"; };
+		B430ABF8102611F100FC97F2 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Particle.png; path = GLPaint/Particle.png; sourceTree = "<group>"; };
+		B430AC0D1026122D00FC97F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B430AC2E1026123200FC97F2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B430AC3D1026123700FC97F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B430AD4910261D8C00FC97F2 /* RemoteFeelings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteFeelings.m; path = RemoteFeelings/Models/RemoteFeelings.m; sourceTree = "<group>"; };
+		B430AD4A10261D8C00FC97F2 /* RemoteFeelings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteFeelings.h; path = RemoteFeelings/Models/RemoteFeelings.h; sourceTree = "<group>"; };
+		B430AD4C10261DD800FC97F2 /* multicastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = multicastViewController.m; path = RemoteFeelings/multicastViewController.m; sourceTree = "<group>"; };
+		B430AD4D10261DD800FC97F2 /* multicastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multicastViewController.h; path = RemoteFeelings/multicastViewController.h; sourceTree = "<group>"; };
+		B430AD6E1026208300FC97F2 /* multicastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = multicastViewController.xib; path = nibs/multicastViewController.xib; sourceTree = "<group>"; };
+		B430ADD81026263700FC97F2 /* 57heartStringsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57heartStringsIcon.png; path = images/57heartStringsIcon.png; sourceTree = "<group>"; };
+		B430ADD91026263700FC97F2 /* 512heartStringsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512heartStringsIcon.png; path = images/512heartStringsIcon.png; sourceTree = "<group>"; };
+		B430AE2A1026292300FC97F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				B430ABBF1026106D00FC97F2 /* AudioToolbox.framework in Frameworks */,
+				B430AC0E1026122D00FC97F2 /* CoreGraphics.framework in Frameworks */,
+				B430AC2F1026123200FC97F2 /* OpenGLES.framework in Frameworks */,
+				B430AC3E1026123700FC97F2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B430AAA51025F46800FC97F2 /* PeerController.h */,
+				B430AAA61025F46800FC97F2 /* PeerController.m */,
+				B430A9E11025EF4D00FC97F2 /* PaintController.h */,
+				B430A9E21025EF4D00FC97F2 /* PaintController.m */,
+				B430A9D71025EC7800FC97F2 /* ComingSoonController.h */,
+				B430A9D81025EC7800FC97F2 /* ComingSoonController.m */,
+				44346F4A1024FAA8001F5EE3 /* Feeling.h */,
+				44346F4B1024FAA8001F5EE3 /* Feeling.m */,
+				44346F451024FA93001F5EE3 /* FeelingManager.h */,
+				44346F461024FA93001F5EE3 /* FeelingManager.m */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				1D3623240D0F684500981E51 /* feelingsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* feelingsAppDelegate.m */,
+				ABE0C649102503A2004B5F53 /* ListOfFeelingsController.h */,
+				ABE0C64A102503A2004B5F53 /* ListOfFeelingsController.m */,
+				B430A8A5102584B600FC97F2 /* TiledFeelingsView.h */,
+				B430A8A6102584B600FC97F2 /* TiledFeelingsView.m */,
+				B430A8CE1025966700FC97F2 /* ShakingView.h */,
+				B430A8CF1025966700FC97F2 /* ShakingView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Heartstrings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* feelings */ = {
+			isa = PBXGroup;
+			children = (
+				B430AD3810261D6B00FC97F2 /* RemoteFeelings */,
+				B430ABD4102611B200FC97F2 /* Paint */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				B430A90D102596A500FC97F2 /* audio */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B430A9D31025EC6800FC97F2 /* ComingSoonController.xib */,
+				B430A9E41025EF5B00FC97F2 /* PaintController.xib */,
+				B430AD6E1026208300FC97F2 /* multicastViewController.xib */,
+			);
+			name = feelings;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0C69610250C1F004B5F53 /* ListOfFeelingsController.xib */,
+				28A0AB4B0D9B1048005BE974 /* feelings_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B430A8B0102588B300FC97F2 /* Feelings.xml */,
+				8D1107310486CEB800E47090 /* feelings-Info.plist */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				B430A9191025974500FC97F2 /* images */,
+				B430A8B81025943100FC97F2 /* thumbs */,
+				ABE0C5E910250069004B5F53 /* ourfeelings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B430AC3D1026123700FC97F2 /* QuartzCore.framework */,
+				B430AC2E1026123200FC97F2 /* OpenGLES.framework */,
+				B430AC0D1026122D00FC97F2 /* CoreGraphics.framework */,
+				B430ABBE1026106D00FC97F2 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B430A90D102596A500FC97F2 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B430ABAD1026100500FC97F2 /* AudioFX.m */,
+				B430ABAE1026100500FC97F2 /* AudioFX.h */,
+				B430ABAF1026100500FC97F2 /* Audio_Internal.h */,
+				B430A911102596B100FC97F2 /* Surprised.wav */,
+				B430A912102596B100FC97F2 /* Happy.wav */,
+				B430ABF4102611E400FC97F2 /* Erase.caf */,
+				B430ABF5102611E400FC97F2 /* Select.caf */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		B430A9191025974500FC97F2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B430AE2A1026292300FC97F2 /* Default.png */,
+				B430ADD81026263700FC97F2 /* 57heartStringsIcon.png */,
+				B430ADD91026263700FC97F2 /* 512heartStringsIcon.png */,
+				B430AAAC1025F51100FC97F2 /* public.png */,
+				B430A89F1025829C00FC97F2 /* favorites.png */,
+				B430A8A1102582DA00FC97F2 /* SubGroups.png */,
+				B430AA001025EFEF00FC97F2 /* brush.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B430ABD4102611B200FC97F2 /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				B430ABF1102611D800FC97F2 /* PaintingView.h */,
+				B430ABF2102611D800FC97F2 /* PaintingView.m */,
+				B430ABEE102611D000FC97F2 /* EAGLView.h */,
+				B430ABEF102611D000FC97F2 /* EAGLView.m */,
+				B430ABF8102611F100FC97F2 /* Particle.png */,
+				B430ABE4102611C800FC97F2 /* Red.png */,
+				B430ABE5102611C800FC97F2 /* Yellow.png */,
+				B430ABE6102611C800FC97F2 /* Purple.png */,
+				B430ABE7102611C800FC97F2 /* Blue.png */,
+				B430ABE8102611C800FC97F2 /* Green.png */,
+			);
+			name = Paint;
+			sourceTree = "<group>";
+		};
+		B430AD3810261D6B00FC97F2 /* RemoteFeelings */ = {
+			isa = PBXGroup;
+			children = (
+				B430AD4C10261DD800FC97F2 /* multicastViewController.m */,
+				B430AD4D10261DD800FC97F2 /* multicastViewController.h */,
+				B430AD3B10261D7C00FC97F2 /* Model */,
+			);
+			name = RemoteFeelings;
+			sourceTree = "<group>";
+		};
+		B430AD3B10261D7C00FC97F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B430AD4910261D8C00FC97F2 /* RemoteFeelings.m */,
+				B430AD4A10261D8C00FC97F2 /* RemoteFeelings.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Heartstrings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Heartstrings" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartstrings;
+			productName = feelings;
+			productReference = 1D6058910D05DD3D006BFB54 /* Heartstrings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "feelings" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* feelings */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Heartstrings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				ABE0C61810250069004B5F53 /* ourfeelings in Resources */,
+				ABE0C69710250C1F004B5F53 /* ListOfFeelingsController.xib in Resources */,
+				B430A8A01025829C00FC97F2 /* favorites.png in Resources */,
+				B430A8A2102582DA00FC97F2 /* SubGroups.png in Resources */,
+				B430A8B1102588B300FC97F2 /* Feelings.xml in Resources */,
+				B430A8BA1025943100FC97F2 /* thumbs in Resources */,
+				B430A913102596B100FC97F2 /* Surprised.wav in Resources */,
+				B430A914102596B100FC97F2 /* Happy.wav in Resources */,
+				B430A9D41025EC6800FC97F2 /* ComingSoonController.xib in Resources */,
+				B430A9E51025EF5B00FC97F2 /* PaintController.xib in Resources */,
+				B430AA011025EFEF00FC97F2 /* brush.png in Resources */,
+				B430AAAD1025F51100FC97F2 /* public.png in Resources */,
+				B430ABE9102611C800FC97F2 /* Red.png in Resources */,
+				B430ABEA102611C800FC97F2 /* Yellow.png in Resources */,
+				B430ABEB102611C800FC97F2 /* Purple.png in Resources */,
+				B430ABEC102611C800FC97F2 /* Blue.png in Resources */,
+				B430ABED102611C800FC97F2 /* Green.png in Resources */,
+				B430ABF6102611E400FC97F2 /* Erase.caf in Resources */,
+				B430ABF7102611E400FC97F2 /* Select.caf in Resources */,
+				B430ABF9102611F100FC97F2 /* Particle.png in Resources */,
+				B430AD6F1026208300FC97F2 /* multicastViewController.xib in Resources */,
+				B430ADDA1026263700FC97F2 /* 57heartStringsIcon.png in Resources */,
+				B430ADDB1026263700FC97F2 /* 512heartStringsIcon.png in Resources */,
+				B430AE2B1026292300FC97F2 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* feelingsAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				44346F471024FA93001F5EE3 /* FeelingManager.m in Sources */,
+				44346F4C1024FAA8001F5EE3 /* Feeling.m in Sources */,
+				ABE0C64B102503A2004B5F53 /* ListOfFeelingsController.m in Sources */,
+				B430A8A7102584B600FC97F2 /* TiledFeelingsView.m in Sources */,
+				B430A8D01025966700FC97F2 /* ShakingView.m in Sources */,
+				B430A9D91025EC7800FC97F2 /* ComingSoonController.m in Sources */,
+				B430A9E31025EF4D00FC97F2 /* PaintController.m in Sources */,
+				B430AAA71025F46800FC97F2 /* PeerController.m in Sources */,
+				B430ABB01026100500FC97F2 /* AudioFX.m in Sources */,
+				B430ABF0102611D000FC97F2 /* EAGLView.m in Sources */,
+				B430ABF3102611D800FC97F2 /* PaintingView.m in Sources */,
+				B430AD4B10261D8C00FC97F2 /* RemoteFeelings.m in Sources */,
+				B430AD4E10261DD800FC97F2 /* multicastViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = feelings_Prefix.pch;
+				INFOPLIST_FILE = "feelings-Info.plist";
+				PRODUCT_NAME = Heartstrings;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = feelings_Prefix.pch;
+				INFOPLIST_FILE = "feelings-Info.plist";
+				PRODUCT_NAME = Heartstrings;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Stone";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4FADD5B0-056A-4205-8EF8-9B000480796C";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Heartstrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "feelings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
